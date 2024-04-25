@@ -1,0 +1,45 @@
+$dark: black;
+
+body {
+  background-color: $dark;
+}
+/* нормалізація стилів */
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Euclid Circular A";
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24px;
+}
+
+@font-face {
+  font-weight: 400;
+  font-family: "Euclid Circular A";
+  src: url("../fonts/euclid-circular-a/Euclid Circular A Regular.ttf");
+}
+@font-face {
+  font-weight: 500;
+  font-family: "Euclid Circular A";
+  src: url("../fonts/euclid-circular-a/Euclid Circular A Medium.ttf");
+}
+@font-face {
+  font-weight: 600;
+  font-family: "Euclid Circular A";
+  src: url("../fonts/euclid-circular-a/Euclid Circular A SemiBold.ttf");
+}
+/* Utilites */
+.container {
+  width: 100%;
+  margin: 0 auto;
+  padding-left: 100px;
+  padding-right: 100px;
+}

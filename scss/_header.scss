@@ -1,0 +1,40 @@
+.header {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px 100px;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+
+  &__logo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  &__list {
+    display: flex;
+    align-items: center;
+    list-style: none;
+    gap: 64px;
+    color: white;
+
+    &__item {
+    }
+  }
+
+  &__button {
+    font-weight: 500;
+    line-height: 16px;
+    padding: 18px 24px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 200px;
+    color: white;
+    background-color: black;
+    border: 1px solid #3c49ec;
+
+    &-svg {
+      margin-left: 10px;
+    }
+  }
+}

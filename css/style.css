@@ -1,0 +1,197 @@
+@charset "UTF-8";
+body {
+  background-color: black;
+}
+
+/* нормалізація стилів */
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Euclid Circular A";
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24px;
+}
+
+@font-face {
+  font-weight: 400;
+  font-family: "Euclid Circular A";
+  src: url("../fonts/euclid-circular-a/Euclid Circular A Regular.ttf");
+}
+@font-face {
+  font-weight: 500;
+  font-family: "Euclid Circular A";
+  src: url("../fonts/euclid-circular-a/Euclid Circular A Medium.ttf");
+}
+@font-face {
+  font-weight: 600;
+  font-family: "Euclid Circular A";
+  src: url("../fonts/euclid-circular-a/Euclid Circular A SemiBold.ttf");
+}
+/* Utilites */
+.container {
+  width: 100%;
+  margin: 0 auto;
+  padding-left: 100px;
+  padding-right: 100px;
+}
+
+.header {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  padding: 20px 100px;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+}
+.header__logo {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+.header__list {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  list-style: none;
+  gap: 64px;
+  color: white;
+}
+.header__button {
+  font-weight: 500;
+  line-height: 16px;
+  padding: 18px 24px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  border-radius: 200px;
+  color: white;
+  background-color: black;
+  border: 1px solid #3c49ec;
+}
+.header__button-svg {
+  margin-left: 10px;
+}
+
+.about {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+.about__title {
+  width: auto;
+  margin-top: 122px;
+  margin-right: 35px;
+  color: white;
+  font-size: 56px;
+  font-weight: 600;
+  line-height: 64px;
+}
+.about__title-span {
+  color: #515af8;
+}
+.about__text {
+  margin-top: 32px;
+  color: rgba(255, 255, 255, 0.8);
+  font-size: 18px;
+  font-style: normal;
+}
+.about__img {
+  width: 100%;
+  height: 515px;
+  margin-top: 64px;
+  background: var(--Main_white, #fff);
+}
+.about__button {
+  padding: 23px 40px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  border-radius: 100px;
+  border: none;
+  background: #3c49ec;
+  color: var(--Main_white, #fff);
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 18px;
+  margin-top: 64px;
+}
+
+.benefits {
+  margin-top: 52px;
+}
+.benefits__title {
+  color: var(--Main_white, #fff);
+  text-align: center;
+  font-size: 24px;
+  font-weight: 600;
+  line-height: 28px;
+  margin-bottom: 32px;
+}
+.benefits__list {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  gap: 32px;
+}
+.benefits__item {
+  padding: 28px 24px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  gap: 12px;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  border-radius: 10px;
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  background: var(--Main_black, #161616);
+}
+.benefits__icon {
+  width: 24px;
+  height: 24px;
+}
+.benefits__item-title {
+  color: rgba(255, 255, 255, 0.8);
+  text-align: center;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 20px;
+}/*# sourceMappingURL=style.css.map */
