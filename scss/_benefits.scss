@@ -1,5 +1,5 @@
 .benefits {
-  margin-top: 52px;
+  padding-bottom: 64px;
 
   &__title {
     color: var(--Main_white, #fff);
@@ -8,11 +8,12 @@
     font-weight: 600;
     line-height: 28px;
     margin-bottom: 32px;
+    transition: all 0.3s;
   }
 
   &__list {
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
     gap: 32px;
   }
 
@@ -24,7 +25,15 @@
     align-items: center;
     border-radius: 10px;
     border: 1px solid rgba(255, 255, 255, 0.1);
-    background: var(--Main_black, #161616);
+    background: #161616;
+    transition: all 0.3s;
+  }
+  &__item:hover {
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    background: #fff;
+  }
+  &__item:hover .benefits__item-title {
+    color: #161616;
   }
 
   &__icon {

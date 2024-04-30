@@ -1,7 +1,4 @@
 .header {
-  display: flex;
-  justify-content: space-between;
-  padding: 20px 100px;
   border-bottom: 1px solid rgba(255, 255, 255, 0.1);
 
   &__logo {
@@ -15,12 +12,17 @@
     align-items: center;
     list-style: none;
     gap: 64px;
-    color: white;
-
-    &__item {
-    }
   }
-
+  &__link {
+    display: block;
+    color: white;
+    padding: 38px 0;
+  }
+  &__container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
   &__button {
     font-weight: 500;
     line-height: 16px;

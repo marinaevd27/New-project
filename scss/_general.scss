@@ -12,7 +12,14 @@ body {
   -webkit-box-sizing: border-box;
   box-sizing: border-box;
 }
-
+a {
+  text-decoration: none;
+}
+ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
 body {
   font-family: "Euclid Circular A";
   font-size: 16px;
@@ -38,8 +45,7 @@ body {
 }
 /* Utilites */
 .container {
-  width: 100%;
+  max-width: 1270px;
   margin: 0 auto;
-  padding-left: 100px;
-  padding-right: 100px;
+  padding: 0 15px;
 }
