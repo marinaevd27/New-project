@@ -1,0 +1,5 @@
+include: ["_pages", "_redirects"]
+
+sass:
+  style: compressed
+  sass_dir: _scss
